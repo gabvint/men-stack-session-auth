@@ -25,7 +25,7 @@ app.use(morgan('dev'));
 
 
 app.get('/', async (req, res) => {
-    res.render('')
+    res.render('index.ejs')
 })
 
 app.listen(port, () => {
